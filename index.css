@@ -1,0 +1,404 @@
+.header {
+    background-color:white;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 7%;
+    padding: 0 5px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    height: 48px;
+}
+body {
+    font-family: sans-serif;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+    list-style: none;
+    list-style-type: none;
+}
+.logo {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    position: relative;
+    left: -607px;
+    top: -10px;
+}
+.inputsearch {
+    width: 100px;
+    height: 30px;
+    
+}
+.glass{
+    position: relative;
+    left: 32px;
+    top: -21px;
+
+}
+.searchbar{
+    position: relative;
+    left: -304px;
+    width: 373px;
+    height: 26px;
+    border-radius: 21px;
+    background-color: ghostwhite;
+}
+.bookmark{
+    position:relative;
+    left: 427px;
+}
+.chat{
+    position: relative;
+    left: 492px;
+}
+.user{
+    border-radius: 50%;
+    position: relative;
+    left: 563px;
+    top: 23px;
+}
+.jonas{
+    position: relative;
+    left: 614px;
+    top: -20px;
+}
+.grp {
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+.center {
+    display: flex;
+}
+.grp > div {
+    min-width: 30px;
+    background-color: white;
+    text-align: center;
+}
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+.navbar > div {
+    flex: 1 1 0;
+    background-color: black;
+    border: 1px solid rgb(116, 102, 102);
+    text-align: center;
+}
+.para1{
+   
+    color: white;
+}
+.para2{
+    
+    color: white;
+}
+.para3{
+    
+    color: white;
+}
+.para4{
+    
+    color: white;
+}
+.img-row {
+    width: 100%;
+    display: flex;
+}
+.img-row > div {
+    flex: 1 1 0;
+    background-color: white;
+    width: 100%;
+}
+.hotel-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.hotel-name{
+    font-size: 27px;
+}
+
+.hotel1{
+    position: relative;
+    width: 500px;
+    height: 197px;
+}
+.hotel2{
+    position: relative;
+    width: 500px;
+    height: 197px;
+}
+.hotel3{
+    position: relative;
+    width: 498px;
+    height: 197px;
+}
+.checked {
+    color: pink;
+}
+.star{
+   
+    
+    color: deeppink;
+}
+  .location{
+      color: crimson;
+
+  }
+  .link{
+      align-self: center;
+      text-decoration: underline;
+      color: deeppink;
+  }
+.edge-color{
+    font-size: 34px;
+   
+    font-size: 35px;
+    
+    
+    color: white;
+    text-align: center;
+}
+.edge-color2{
+     
+      color: white;
+      
+     
+}
+
+.blogs {
+    margin-top: 20px;
+    width: 100%;
+    background-color: lightgray;
+}
+.r1 {
+    width: 70%;
+    max-width: 100%;
+    height: 60%;
+    float: left;
+    display: flex;
+    padding: 5px;
+}
+li:before {
+    content: '\003E';
+    color:deeppink;
+}
+.list2{
+    position: relative;
+    left: 306.1px;
+    top: -135px;
+}
+li{
+    padding-bottom: 12px;
+}
+.line-div{
+    position: relative;
+    top: -56px;
+}
+.r1 > div {
+    
+    padding: 5px;
+    color: black;
+    background-color: white;
+}
+.r1 > div:nth-child(2) {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.r1 > div:nth-child(2) > div {
+   
+    padding: -7px;
+    display: flex;
+    flex-direction: column;
+    width: 241px;
+    position: relative;
+    left: 337px;
+}
+.r2 {
+    width: 30%;
+    max-width: 100%;
+    height: 60%;
+    float: right;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.r2 > div {
+    padding: 88px;
+    position: relative;
+    left: 109px;
+    padding-right: 87px;
+    top: -77px;
+}
+.block1{
+    border-radius: 65%;
+    width: 70px;
+    /* padding: 2px; */
+    padding-top: 2px;
+    /* padding-bottom: 3px; */
+    position: relative;
+    top: 13px;
+}
+.nick-smith{
+    position: relative;
+    left: 107px;
+}
+.nick{
+    position: relative;
+    left: 104px;
+    top: -77px
+}
+.user-date1{
+    position: relative;
+    left: 103px;
+    top: -170px;
+    font-size: smaller;
+    color: gray;
+}
+.number1{
+    position: relative;
+    left: 165px;
+    top: -124px;
+    font-size: 28px;
+    color: deeppink;;
+}
+.marry-thomas{
+    position: relative;
+    top: 107px;
+}
+.block2{
+    border-radius: 65%;
+    width: 70px;
+    /* padding: 2px; */
+    padding-top: 2px;
+    /* padding-bottom: 3px; */
+    position: relative;
+    top: 13px;
+}
+.marry{
+    position: relative;
+    left: 104px;
+    top: -77px
+}
+.user-date2{
+    position: relative;
+    left: 108px;
+    top: -103px;
+    font-size: smaller;
+    color: gray;
+}
+.number2{
+    position: relative;
+    left: 165px;
+    top: -230px;
+    font-size: 28px;
+    color: deeppink;;
+}
+.user2-year{
+    position: relative;
+}
+.button{
+    top: -144px;
+    position: relative;
+    border-radius: 18px;
+    width: 118px;
+    color: white;
+    background-color: rgb(243,-57,94);
+}
+.lucy-img{
+    position: relative;
+
+}
+.image3{
+    border-radius: 65%;
+    width: 50px;
+    position: relative;
+    left: 359px;
+    top: -57px;
+}
+.image4{
+    border-radius: 65%;
+    width: 50px;
+    position: relative;
+    left: 336px;
+    top: -56px;
+}
+.image5{
+    border-radius: 65%;
+    width: 50px;
+    position: relative;
+    left: 311px;
+    top: -57px;
+    
+}
+.image6{
+    border-radius: 65%;
+    width: 50px;
+    position: relative;
+    left: 283px;
+    top: -55px;
+    
+}
+.show{
+    text-decoration: underline;
+    color: deeppink;
+}
+.hr-line{
+    position: relative;
+    left: -39px;
+    top: -17px;
+}
+.arrow{
+    position: relative;
+    color: deeppink;
+    left: 96px;
+    top: -35px;
+    text-decoration: none;
+}
+.last{
+    position: relative;
+}
+.home:hover{
+    background-color: deeppink;
+}
+.flight1:hover{
+    background-color: deeppink;
+}
+.car1:hover{
+    background-color: deeppink;
+}
+.trip:hover{
+    background-color: deeppink;
+}
+.img-1{
+    background-color: white;
+    position: relative;
+    left: -59px;
+    bottom: -37px;
+}
+.img-2{
+    background-color: white;
+    position: relative;
+    left: -59px;
+    bottom: -37px;
+}
+.img-3{
+    background-color: white;
+    position: relative;
+    left: -77px;
+    bottom: -37px;
+}
+.img-4{
+    background-color: white;
+    position: relative;
+    left: -59px;
+    bottom: -37px;
+}
+
